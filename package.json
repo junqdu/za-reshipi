@@ -44,6 +44,7 @@
   },
   "homepage": "https://junqdu.github.io/za-reshipi/",
   "devDependencies": {
+    "gh-pages": "^2.1.1",
     "json-loader": "^0.5.7"
   }
 }
