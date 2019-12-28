@@ -1,14 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Overview from './Overview';
 
 const App: React.FC = () => {
   return (
     <div className="App">
-      <header className="App-header">
+      <Overview></Overview>
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Hello, Umi!
+          Hello, Umi! {cc.name}
         </p>
         <a
           className="App-link"
@@ -18,7 +19,8 @@ const App: React.FC = () => {
         >
           Learn React
         </a>
-      </header>
+        <Button>test</Button>
+      </header> */}
     </div>
   );
 }
